@@ -5,6 +5,7 @@ import Flashdeal from '../components/Home/Flashdeal'
 import FeatureProduct from '../components/Home/FeatureProduct'
 import ShowMore from '../ui/ShowMore'
 import Payment from '../components/Home/Payment'
+import Footer from '../Layout/Footer'
 
 
 
@@ -20,6 +21,7 @@ const Home = () => {
       <FeatureProduct/>
       <ShowMore/>
       <Payment/>
+    
     
      
     

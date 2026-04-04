@@ -25,7 +25,7 @@ const FeatureProduct= () => {
 
             </ProductCard>
             
-            <ProductCard img="/Image Placeholder (5).png" text="Headrest Executive Mesh Office Chair set"price="৳1000.00">
+            <ProductCard img="/Image Placeholder (7).png" text="Headrest Executive Mesh Office Chair set"price="৳1000.00">
 
             </ProductCard>
             

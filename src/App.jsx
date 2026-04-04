@@ -4,6 +4,9 @@ import Layout from './Layout'
 import Home from './pages/Home'
 import About from './pages/About'
 import Shop from './pages/Shop'
+import ProductDeatils from './pages/ProductDeatils'
+import Registation from './pages/Registation'
+import Login from './pages/Login'
 
 const App = () => {
   return (
@@ -14,6 +17,10 @@ const App = () => {
          <Route index element={<Home/>}/>
          <Route path="about" element={<About/>}/>
          <Route path="/shop" element={<Shop/>}/>
+         <Route path="/shop/:id" element={<ProductDeatils/>}/>
+         <Route path="/registation" element={<Registation/>}/>
+         <Route path="/login" element={<Login/>}/>
+
 
         </Route>
        

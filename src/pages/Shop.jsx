@@ -62,11 +62,11 @@ const Shop = () => {
          </div>
         <div className='col-span-9'>
 
-            <div className='flex items-center justify-between'>
+            <div className='flex items-center justify-between '>
                 <p className=' font-medium text-lg text-[#424241]/50'>Showing  <span className='text-secondary'>20 </span>of <span className='text-secondary'>160</span> product</p>
-                <div className='w-fit flex items-center gap-7' >
-                    <p>Sort By:</p>
-                    <SelectInput  className='max-2-44 ' options={sortoption}/>
+                <div className='flex items-center  gap-7 ' >
+                    <p className='whitespace-nowrap'>Sort By:</p>
+                    <SelectInput  className='' options={sortoption}/>
 
                   
                    

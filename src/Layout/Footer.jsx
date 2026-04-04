@@ -48,7 +48,7 @@ const Footer = () => {
       </div>
       </div>
 
-      <div className='space-y-5 order-2'>
+      <div className='space-y-5 order-2 ml-0 sm:ml-10'>
         <h2 className='text-base sm:text-lg font-semibold text-primary'>QUICK LINKS</h2>
          <ul className='space-y-2 sm:space-y-3'>
            {
@@ -62,7 +62,7 @@ const Footer = () => {
         
       </div>
 
-      <div className='space-y-3 order-3'>
+      <div className='space-y-3 order-3 ml-0 sm:ml-10'>
         <h2 className='text-base sm:text-lg font-semibold text-primary'>CUSTOMER AREA</h2>
         <ul className='space-y-2 sm:space-y-3'>
             {
@@ -78,7 +78,7 @@ const Footer = () => {
 
       <div className='space-y-3 order-1 md:order-4'>
         <h2 className='text-base sm:text-lg font-semibold text-primary'>CONTACT</h2>
-        <p className='text-xs sm:text-sm text-primary/90 mt-6 leading-relaxed whitespace-normal'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+        <p className='text-xs sm:text-sm text-primary/90 mt-6 leading-relaxed whitespace-normal w-[340px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
 
         <div className='flex gap-2 sm:gap-4 items-start mt-6'>
           <RiCustomerServiceFill className='text-3xl sm:text-4xl lg:text-5xl text-gray-400 flex-shrink-0'/>

@@ -8,64 +8,81 @@ const Catagory = () => {
 
         {
             title : "Health & Household",
-            icon : MdOutlineHealthAndSafety
+           img : "/Group.png" 
+          
+           
 
         },
         {
             title : "Kids Fashion",
-            icon : MdOutlineHealthAndSafety
+            img : "/Kids_Fashion.png"
+          
         },
         {
             title : "Toys",
-            icon : MdOutlineHealthAndSafety
+            img : "/Toys.png"
+         
+
         },
         {
             title : "Groceries",
-            icon : MdOutlineHealthAndSafety
+            img : "/Groceries.png"
+           
         },
         {
             title : "Home & Lifestyle",
-            icon : MdOutlineHealthAndSafety
+            img : "/Home.png"
+           
         },
         {
             title : "Men Fashion",
-            icon : MdOutlineHealthAndSafety
+            img : "/Men_Fashion.png"
+          
         },
         {
             title : "Women’s Fashion",
-            icon : MdOutlineHealthAndSafety
+            img : "/Women_Fashion.png"
+        
         },
         {
             title : "Stationary & Books",
-            icon : MdOutlineHealthAndSafety
+            img : "/Book.png"
+        
         },
         {
             title : "Leather Goods",
-            icon : MdOutlineHealthAndSafety
+            img : "/Leather.png"
+        
         },
         {
             title : "Jewelleries ",
-            icon : MdOutlineHealthAndSafety
+            img : "/Jewelleries .png"
+            
         },
         {
             title : "Watches ",
-            icon : MdOutlineHealthAndSafety
+            img : "/Watches.png"
+        
         },
-        {
-            title : "Jewelleries ",
-            icon :MdOutlineHealthAndSafety
-        },
+      
         {
             title : "Men Fashion ",
-            icon : MdOutlineHealthAndSafety
+            img : "/Men Fashion2.png"
+        
+        },
+        {
+            title : "Tools & Hardware",
+            img : "/Tools.png"
         },
         {
             title : "Pet Supplies",
-            icon : MdOutlineHealthAndSafety
+            img : "/pets.png"
+        
         },
         {
             title : "Seasonal",
-            icon : MdOutlineHealthAndSafety
+            img : "/Seasonal.png"
+        
         }
     ]
   return (
@@ -78,9 +95,9 @@ const Catagory = () => {
             catagories.map((item)=>(
                   
              <Link to="/" className='flex shadow p-4 items-center  rounded-xl '>
-               <item.icon className='text-2xl text-brand'/>
-              <p className='pl-2 pr-4 '>{item.title}</p>
-              <FaChevronRight className='ml-auto ' />
+                <img src={item.img} alt="" />
+              <p className='pl-4 pr-4 '>{item.title}</p>
+              <FaChevronRight className='ml-auto text-primary/60' />
 
              </Link>
            

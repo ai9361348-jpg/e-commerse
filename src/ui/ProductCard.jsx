@@ -2,10 +2,13 @@
 import React from 'react'
 import { BiCart } from 'react-icons/bi'
 import { MdOutlineStar } from 'react-icons/md'
+import { Link } from 'react-router'
 
 const ProductCard = ({img , text , price,showoffer}) => {
   return (
-    <div className='mt-7 p-2.5 border border-[#E9E9E9] rounded-2xl flex flex-col justify-between bg-white'>
+    <Link to="/shop/gygu" className='mt-7 p-2.5 border border-[#E9E9E9] rounded-2xl flex flex-col justify-between bg-white'>
+    
+   
        <div className=' rounded-2xl  overflow-hidden relative'>
           <img src={img} alt="" className='w-full'/>
         {showoffer &&   <p className='absolute top-0 left-0 bg-badge py-1 px-4 l rounded font-semibold text-white text-xs md:text-base'>-25% OFF</p> }
@@ -34,7 +37,8 @@ const ProductCard = ({img , text , price,showoffer}) => {
          </button>
 
        </div>
-    </div>
+
+    </Link>
   )
 }
 
